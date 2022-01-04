@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family:'Playfair Display', serif;
+}
+
+.information{
+    font-style: inherit; 
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+}
+
+.personal-information{
+    display:flex;
+}
+
+.identity{
+    width:50%;
+    padding: 20px 20px 20px 80px;
+    
+}
+
+h1{
+    font-size: 60px;
+    
+}
+
+h3{
+    font-size: 25px;
+}
+
+img{ 
+    width:80%;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+p{
+    width: 90%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+a{
+    text-decoration:none ;
+    padding: 12px 40px;
+    background-image: linear-gradient(#FF9A75,#FF6D4F);;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+span{
+    color:#FFA500;
+}
+
+.dream{
+    font-style: inherit; 
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+    padding: 100px 0;
+}
+
+.Dream img{
+    width:90%;
+    margin-left: -10px;
+}
+
+.dream-div{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.experience{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+
+.experience-div{
+    display: flex;
+    padding: 2%;
+
+}
+
+.Babyweb{
+    width:43%;
+    height: 350px;
+    padding: 2%;
+    box-shadow:0 0 55px -20px black;
+}
+
+.Babyweb h1{
+    font-size: 50px;
+}
+
+.Babyweb h3{
+    color:#FFA500;
+}
+
+.Baby{
+    margin-left: 70px;
+    border-left:7px solid;
+    border-image: linear-gradient(#0002FF,#00FDFF);
+    border-image-slice: 1;
+}
+
+.full{
+    border-left:7px solid;
+    border-image: linear-gradient(#FFA07A,#FF6347);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
